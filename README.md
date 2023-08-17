@@ -6,6 +6,11 @@ Setup based from tutorial here: https://collabnix.com/creating-your-first-react-
 
 Based on Create React App 
 
+To build: `docker build -t react-training .`
+To run: `docker run -d -p 80:80 react-training`
+
+Available on http://localhost/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
