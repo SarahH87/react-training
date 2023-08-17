@@ -1,5 +1,4 @@
-
-# react-training
+# React Training
 Basic docker setup to execute React apps for training
 
 Setup based from tutorial here: https://collabnix.com/creating-your-first-react-app-using-docker/
@@ -14,6 +13,7 @@ Available on http://localhost/
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Instructions for running the project without Docker can be seen below.
 
 ## Available Scripts
 
