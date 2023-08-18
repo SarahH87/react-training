@@ -9,8 +9,6 @@ To build: `docker build -t react-training .`
 
 To run: `docker run -d -p 80:80 react-training`
 
-To compile `yarn run start`
-
 Available on http://localhost/
 
 # Getting Started with Create React App
