@@ -6,7 +6,10 @@ Setup based from tutorial here: https://collabnix.com/creating-your-first-react-
 Based on Create React App 
 
 To build: `docker build -t react-training .`
+
 To run: `docker run -d -p 80:80 react-training`
+
+To compile `yarn run start`
 
 Available on http://localhost/
 
