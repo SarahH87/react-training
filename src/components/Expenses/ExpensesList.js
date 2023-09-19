@@ -16,8 +16,15 @@ function ExpensesList(props) {
     return (
         <div>
             <Card className="expenses">
+                {console.log('items' + props)}
                 <ExpensesFilter selectedYear={enteredYear} onChangeFilter={onChangeFilter} />
-                {props.expenses.map(expense => <ExpenseItem expense={expense} />)}
+                {props.items.map(expense =>
+                    <ExpenseItem
+                        key={expense.id}
+                        title={expense.title}
+                        amount={expense.amount}
+                        date={expense.date}/>
+                )}
             </Card>
         </div>
     );
