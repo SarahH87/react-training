@@ -18,13 +18,13 @@ function ExpensesList(props) {
             <Card className="expenses">
                 {console.log('items' + props)}
                 <ExpensesFilter selectedYear={enteredYear} onChangeFilter={onChangeFilter} />
-                {props.items.map(expense =>
+                {props.items.map((expense) => (
                     <ExpenseItem
-                        key={expense.id}
                         title={expense.title}
                         amount={expense.amount}
-                        date={expense.date}/>
-                )}
+                        date={expense.date}
+                    />
+                ))}
             </Card>
         </div>
     );
